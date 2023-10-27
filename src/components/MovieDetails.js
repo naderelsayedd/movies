@@ -13,6 +13,7 @@ export default function MovieDetails() {
   useEffect(() =>{
     getMovieDetails();
   })
+  document.title =movie.original_title
   return (
     <div className='container'>
       <div className='row mt-5  p-3 rounded-3 parent'>
